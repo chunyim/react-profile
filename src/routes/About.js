@@ -9,10 +9,24 @@ const About = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading="ABOUT MYSELF" text="I keep learning and improving."/>
+      <HeroImg2
+        heading="ABOUT MYSELF"
+        text={
+          <div>
+            <br></br>
+          <p>My career goal involves:</p>
+          <ul>
+            <li>Pursuing continuous learning</li>
+            <li>Staying up-to-date with latest technologies.</li>
+            <li>Helping people to solve problems</li>
+          </ul>
+        </div>
+      }
+      />
       <AboutContent />
       <Footer />
-    </div>  )
+    </div>
+  );
 };
 
 export default About;

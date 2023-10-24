@@ -6,7 +6,7 @@ const ProjectCardData = [
   {
     imgsrc: seekverImg,
     title: "Seekver Website -- MEAN Stack Project",
-    text: "We have two main roles: Seekers and Solvers! If you have a problem at hand and are unsure how to solve it, or you simply prefer someone else to handle it, you can post it here. For those who enjoy solving problems, you can browse the website and offer your assistance to others. You might even be rewarded by the Seeker for your service!",
+    text: "It is a dynamic and user-friendly platform designed to connect problem seekers with skilled solvers. The website will keep updating with the vision of becoming the ultimate destination for individuals seeking solutions and those equipped with the expertise to deliver them.",
     view: "https://seekver.netlify.app",
     github: "https://github.com/chunyim/Seekver-Frontend"
   },

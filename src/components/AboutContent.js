@@ -22,7 +22,7 @@ const AboutContent = () => {
         <h1>Who Am I?</h1>
         <p>Full Stack Developer -- MEAN stack</p>
         <p>Programming languages including: <br/>
-         HTML, CSS, JavaScript, Express, Angular, Node, MySQL, Oracle SQL, MongoDB,
+         HTML, CSS, JavaScript, TypeScript, Express, Angular, Node, MySQL, Oracle SQL, MongoDB,
           Python, C#, and Java
         </p>
         <button className="btn" onClick={downloadResume}>

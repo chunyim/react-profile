@@ -5,6 +5,7 @@ import React from "react";
 import {
   FaEnvelope,
   FaFacebook,
+  FaGithub,
   FaHome,
   FaLinkedin,
   FaPhone,
@@ -18,7 +19,7 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
 
-            <p> 8 Rean Drive North York, ON</p>
+            <p>North York, ON</p>
           </div>
 
           <div className="phone">
@@ -41,10 +42,9 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4>About Me</h4>
+          <h4>Contact Me</h4>
           <p>
-            This is Chun Hin Yim. A full stack developer, and the Founder of
-            Seekver with the aim to help people solving problems!
+            Feel free to contact me through the following channels:
             <div className="social">
               <a
                 href="https://www.linkedin.com/in/chunyim/"
@@ -62,12 +62,33 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-              <FaFacebook
-                size={20}
-                style={{ color: "#fff", marginRight: "2rem" }}
-              />
+                <FaFacebook
+                  size={20}
+                  style={{ color: "#fff", marginRight: "2rem" }}
+                />
               </a>
 
+              <a
+                href="https://github.com/chunyim"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaGithub
+                  size={20}
+                  style={{ color: "#fff", marginRight: "2rem" }}
+                />
+              </a>
+
+              <a
+                href="mailto:chunhinyim@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaEnvelope
+                  size={20}
+                  style={{ color: "#fff", marginRight: "2rem" }}
+                />
+              </a>
             </div>
           </p>
         </div>

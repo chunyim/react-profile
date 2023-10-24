@@ -3,6 +3,8 @@ import "./WorkCardStyles.css";
 import React from "react";
 import WorkCard from "./WorkCard";
 import WorkCardData from "./WorkCardData";
+import OOPCard from "./OOPCards";
+import OOPCardData from "./OOPCardData";
 
 const Work = () => {
   return (
@@ -17,6 +19,21 @@ const Work = () => {
               imgsrc={val.imgsrc}
               text={val.text}
               view={val.view}
+              github={val.github}
+            />
+          );
+        })}
+      </div>
+      <h1 className="project-heading">OOP Projects</h1>
+      <div className="OOPProject-container">
+        {OOPCardData.map((val, ind) => {
+          return (
+            <OOPCard
+              key={ind}
+              title={val.title}
+              imgsrc={val.imgsrc}
+              text={val.text}
+              // view={val.view}
               github={val.github}
             />
           );

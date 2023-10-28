@@ -1,9 +1,10 @@
 import "./AboutContentStyles.css";
 
 import React from "react";
-import { Link } from "react-router-dom";
 import angular from "../assets/angular.png";
 import MongoDB from "../assets/MongoDB_ForestGreen.png";
+import reactLogo from "../assets/react_logo.png";
+
 
 const AboutContent = () => {
   const resumeUrl = "/chunhin_resume.pdf";
@@ -28,19 +29,18 @@ const AboutContent = () => {
         <button className="btn" onClick={downloadResume}>
           My Resume
         </button>
-        {/* </Link> */}
       </div>
 
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <img src={MongoDB} className="img" alt="true" />
+            <img src={reactLogo} className="img" alt="true" />
           </div>
 
           <div className="img-stack bottom">
             <img src={angular} className="img" alt="true" />
 
-            {/* <img src={expressJS} className="img" alt="true" /> */}
+            <img src={MongoDB} className="img" alt="true" />
           </div>
         </div>
       </div>

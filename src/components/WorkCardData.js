@@ -1,9 +1,18 @@
+import shopImg from "../assets/shopImg.png";
 import seekverImg from "../assets/seekverImg.png";
 import catGallery from "../assets/catgallery.png";
 import foodbank from "../assets/Hackathon_foodbank.png";
 import wordGuessingGame from "../assets/wordguessinggame.png";
 
 const ProjectCardData = [
+  {
+    imgsrc: shopImg,
+    title: "Online Shopping Web App -- React Web Project",
+    text: "It is a responsive and user-friendly platform designed to allow the user to browse differnt products easily via search.",
+    view: "https://shopping-project-gold.vercel.app/",
+    github: "https://github.com/chunyim/product-app",
+  },
+
   {
     imgsrc: seekverImg,
     title: "Seekver Website -- MEAN Stack Project",

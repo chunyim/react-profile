@@ -10,7 +10,7 @@ const About = () => {
     <div>
       <Navbar />
       <HeroImg2
-        heading="ABOUT CHUN HIN"
+        heading="ABOUT HENRY"
         text={
           <div>
             <br></br>

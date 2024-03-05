@@ -3,6 +3,7 @@ import seekverImg from "../assets/seekverImg.png";
 import catGallery from "../assets/catgallery.png";
 import foodbank from "../assets/Hackathon_foodbank.png";
 import wordGuessingGame from "../assets/wordguessinggame.png";
+import expenseTracker from "../assets/expensetracker.png";
 
 const ProjectCardData = [
   {
@@ -12,7 +13,13 @@ const ProjectCardData = [
     view: "https://shopping-project-gold.vercel.app/",
     github: "https://github.com/chunyim/product-app",
   },
-
+  {
+    imgsrc: expenseTracker,
+    title: "Expense Tracker Web App -- MERN Stack Project",
+    text: "It is a full stack web app designed to help users to track their expenses and incomes with data visualization",
+    view: "https://github.com/chunyim/expense-tracker",
+    github: "https://github.com/chunyim/expense-tracker",
+  },
   {
     imgsrc: seekverImg,
     title: "Seekver Website -- MEAN Stack Project",

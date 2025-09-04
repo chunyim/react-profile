@@ -7,12 +7,12 @@ import reactLogo from "../assets/react_logo.png";
 import dbLogo from "../assets/dw.png"
 
 const AboutContent = () => {
-  const resumeUrl = "/chunhin_resume.pdf";
+  const resumeUrl = "/HenryYim_Resume.docx";
 
   const downloadResume = () => {
     const link = document.createElement("a");
     link.href = resumeUrl;
-    link.download = "chunhin_resume.pdf";
+    link.download = "HenryYim_Resume";
     link.click();
     console.log(resumeUrl);
   };

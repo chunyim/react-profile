@@ -58,17 +58,6 @@ const Footer = () => {
               </a>
 
               <a
-                href="https://www.facebook.com/chunhin.yim.7"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <FaFacebook
-                  size={20}
-                  style={{ color: "#fff", marginRight: "2rem" }}
-                />
-              </a>
-
-              <a
                 href="https://github.com/chunyim"
                 target="_blank"
                 rel="noopener noreferrer"

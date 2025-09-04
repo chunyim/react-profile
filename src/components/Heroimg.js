@@ -15,11 +15,11 @@ const Heroimg = () => {
         <p>Henry Yim's Portfolio</p>
         <h1>Full Stack Developer</h1>
         <Link to="/project" className="btn">
-        Projects
-      </Link>
-      <Link to="/about" className="btn-light">
-        About
-      </Link>
+          Projects
+        </Link>
+        <Link to="/about" className="btn-light">
+          About
+        </Link>
       </div>
     </div>
   );

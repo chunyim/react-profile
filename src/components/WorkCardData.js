@@ -1,4 +1,5 @@
 import shopImg from "../assets/shopImg.png";
+import infoImg from "../assets/infoImg.png";
 import seekverImg from "../assets/seekverImg.png";
 import catGallery from "../assets/catgallery.png";
 import foodbank from "../assets/Hackathon_foodbank.png";
@@ -7,6 +8,13 @@ import expenseTracker from "../assets/expensetracker.png";
 
 const ProjectCardData = [
   {
+    imgsrc: infoImg,
+    title: "Community Info Board -- MERN Full Stack Web Project",
+    text: "It is a responsive website in which users can post, edit, read and delete any info on the board. All information on the board are related to some free or low cost services provided around the community",
+    view: "https://communityinfo.onrender.com/",
+    github: "https://github.com/chunyim/CommunityInfo",
+  },
+  {
     imgsrc: shopImg,
     title: "Online Shopping Web App -- React Web Project",
     text: "It is a responsive and user-friendly platform designed to allow the user to browse differnt products easily via search.",
@@ -14,18 +22,18 @@ const ProjectCardData = [
     github: "https://github.com/chunyim/product-app",
   },
   {
-    imgsrc: expenseTracker,
-    title: "Expense Tracker Web App -- MERN Stack Project",
-    text: "It is a full stack web app designed to help users to track their expenses and incomes with data visualization",
-    view: "https://github.com/chunyim/expense-tracker",
-    github: "https://github.com/chunyim/expense-tracker",
-  },
-  {
     imgsrc: seekverImg,
     title: "Seekver Website -- MEAN Stack Project",
     text: "It is a dynamic and user-friendly platform designed to connect problem seekers with skilled solvers. The website will keep updating with the vision of becoming the ultimate destination for individuals seeking solutions and those equipped with the expertise to deliver them.",
     view: "https://seekver.netlify.app",
     github: "https://github.com/chunyim/Seekver-Frontend",
+  },
+  {
+    imgsrc: expenseTracker,
+    title: "Expense Tracker Web App -- MERN Stack Project",
+    text: "It is a full stack web app designed to help users to track their expenses and incomes with data visualization",
+    view: "https://github.com/chunyim/expense-tracker",
+    github: "https://github.com/chunyim/expense-tracker",
   },
   {
     imgsrc: foodbank,

@@ -4,7 +4,7 @@ import React from "react";
 import angular from "../assets/angular.png";
 import MongoDB from "../assets/MongoDB_ForestGreen.png";
 import reactLogo from "../assets/react_logo.png";
-
+import dbLogo from "../assets/dw.png"
 
 const AboutContent = () => {
   const resumeUrl = "/chunhin_resume.pdf";
@@ -20,11 +20,15 @@ const AboutContent = () => {
   return (
     <div className="about">
       <div className="left">
-        <h1>Who Am I?</h1>
-        <p>Full Stack Developer -- MEAN stack</p>
-        <p>Programming languages including: <br/>
-         HTML, CSS, JavaScript, TypeScript, Express, Angular, React, Node, MySQL, Oracle SQL, MongoDB,
-          Python, C#, and Java
+        <h1>Technical Skills</h1>
+        <p>
+          Programming languages including: <br />
+          HTML, DHTML, CSS, JavaScript, TypeScript, Express, Angular, React,
+          Node, MySQL, Oracle SQL, MongoDB, Python, C#, and Java
+        </p>
+        <p>
+          Design software including: Photoshop, Dreamweaver, Figma, Photopea and Acrobat<br />
+
         </p>
         <button className="btn" onClick={downloadResume}>
           My Resume
@@ -34,13 +38,13 @@ const AboutContent = () => {
       <div className="right">
         <div className="img-container">
           <div className="img-stack top">
-            <img src={reactLogo} className="img" alt="true" />
+            <img src={reactLogo} className="img" alt="true" />  
+            <img src={angular} className="img" alt="true" />
           </div>
 
           <div className="img-stack bottom">
-            <img src={angular} className="img" alt="true" />
-
             <img src={MongoDB} className="img" alt="true" />
+            <img src={dbLogo} className="img" alt="true" />
           </div>
         </div>
       </div>

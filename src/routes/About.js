@@ -14,11 +14,10 @@ const About = () => {
         text={
           <div>
             <br></br>
-          <p>My career goal involves:</p>
           <ul>
-            <li>Pursuing continuous learning</li>
-            <li>Staying up-to-date with latest technologies.</li>
-            <li>Helping people to solve problems</li>
+            <li>Skilled in database-driven website development, web content management</li>
+            <li>Proficient in Adobe Creative Suite (Dreamweaver, Acrobat, Photoshop etc) and Microsoft Office</li>
+            <li>Strong knowledge of WCAG and AODA accessibility standards, and SEO/web best practices</li>
           </ul>
         </div>
       }

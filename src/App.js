@@ -7,14 +7,16 @@ import Contact from "./routes/Contact";
 import About from "./routes/About";
 
 import { Route, Routes } from "react-router-dom";
+import Design from "./routes/Design";
 function App() {
   return (
     <>
-          <Routes>
+      <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Project />} />
-        <Route path="/contact" element={<Contact />} /> 
+        <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
+        <Route path="/design" element={<Design />} />
       </Routes>
     </>
   );

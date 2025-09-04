@@ -5,27 +5,27 @@ import Footer from "../components/Footer";
 import HeroImg2 from "../components/Heroimg2";
 import Work from "../components/Work";
 
-const Project = () => {
+const Design = () => {
   return (
     <div>
       <Navbar />
       <HeroImg2
-        heading="PROJECT"
+        heading="DESIGN"
         text={
           <div>
-                        <br></br>
+            <br></br>
             <ul>
-              <li>I can design, develop and maintain websites, </li>
-              <li>ranging from static websites to database-driven websites.</li>
-              <li>Below are some of my work examples.</li>
+              <li>
+                Here are some of my works on image editing and graphic design
+              </li>
             </ul>
           </div>
         }
-      ></HeroImg2>
-      <Work />
+      />
+      {/* <Work /> */}
       <Footer />
     </div>
   );
 };
 
-export default Project;
+export default Design;

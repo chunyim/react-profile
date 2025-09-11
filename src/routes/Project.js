@@ -13,10 +13,10 @@ const Project = () => {
         heading="PROJECT"
         text={
           <div>
-                        <br></br>
+            <br></br>
             <ul>
               <li>I can design, develop and maintain websites, </li>
-              <li>ranging from static websites to database-driven websites.</li>
+              <li>apart from graphic design and image editing.</li>
               <li>Below are some of my work examples.</li>
             </ul>
           </div>

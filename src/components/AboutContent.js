@@ -14,7 +14,6 @@ const AboutContent = () => {
     link.href = resumeUrl;
     link.download = "HenryYim_Resume";
     link.click();
-    console.log(resumeUrl);
   };
 
   return (

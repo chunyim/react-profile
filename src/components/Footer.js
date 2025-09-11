@@ -4,7 +4,6 @@ import React from "react";
 
 import {
   FaEnvelope,
-  FaFacebook,
   FaGithub,
   FaHome,
   FaLinkedin,

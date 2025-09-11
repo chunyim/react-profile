@@ -5,6 +5,8 @@ import WorkCard from "./WorkCard";
 import WorkCardData from "./WorkCardData";
 import OOPCard from "./OOPCards";
 import OOPCardData from "./OOPCardData";
+import DesignCard from "./DesignCards";
+import DesignCardData from "./DesignCardData";
 
 const Work = () => {
   return (
@@ -24,6 +26,22 @@ const Work = () => {
           );
         })}
       </div>
+
+      <h1 className="project-heading">Design Projects</h1>
+      <div className="DesignProject-container">
+        {DesignCardData.map((val, ind) => {
+          return (
+            <DesignCard
+              key={ind}
+              title={val.title}
+              imgsrc={val.imgsrc}
+              text={val.text}
+              view={val.view} 
+            />
+          );
+        })}
+      </div>
+
       <h1 className="project-heading">OOP Projects</h1>
       <div className="OOPProject-container">
         {OOPCardData.map((val, ind) => {

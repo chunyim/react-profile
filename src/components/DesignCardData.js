@@ -1,6 +1,7 @@
 import application_form from "../assets/application_form.png";
 import dwyimsoccerweb from "../assets/dwyimsoccerweb.png";
 import soccerlogoimg from "../assets/soccerlogoimg.png";
+import soccerposter from "../assets/soccerPoster.png"
 
 const DesignCardData = [
   {
@@ -22,6 +23,12 @@ const DesignCardData = [
     title: "Photoshop -- Logo for Yim Soccer Coaching",
     text: "Designed a modern and professional soccer logo in Adobe Photoshop",
     view: [{ label: "Logo Design", url: "/soccerlogoimg.png" }]
+  },
+    {
+    imgsrc: soccerposter,
+    title: "Photoshop -- Poster for Yim Soccer Coaching",
+    text: "Created a visually engaging and professional soccer coaching poster using Adobe Photoshop, incorporating a custom logo nd QR code linked to the applicaation form.",
+    view: [{ label: "Poster Design", url: "/soccerPoster.png" }]
   },
 ];
 

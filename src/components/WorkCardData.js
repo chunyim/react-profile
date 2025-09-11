@@ -28,20 +28,20 @@ const ProjectCardData = [
     view: "https://seekver.netlify.app",
     github: "https://github.com/chunyim/Seekver-Frontend",
   },
-  {
-    imgsrc: expenseTracker,
-    title: "Expense Tracker Web App -- MERN Stack Project",
-    text: "It is a full stack web app designed to help users to track their expenses and incomes with data visualization",
-    view: "https://github.com/chunyim/expense-tracker",
-    github: "https://github.com/chunyim/expense-tracker",
-  },
-  {
-    imgsrc: foodbank,
-    title: "WIMTACH 2-day Front-End Hackathon",
-    text: "A web and mobile application designed to facilitate food delivery between food banks and the community, while also offering a convenient search feature for finding suitable food bank providers. Key features include Responsive Design, Reusable UI/UX components, HTML5-qrcode and Chat Bot",
-    view: "https://github.com/hinilyu/foodbank",
-    github: "https://github.com/hinilyu/foodbank",
-  },
+  // {
+  //   imgsrc: expenseTracker,
+  //   title: "Expense Tracker Web App -- MERN Stack Project",
+  //   text: "It is a full stack web app designed to help users to track their expenses and incomes with data visualization",
+  //   view: "https://github.com/chunyim/expense-tracker",
+  //   github: "https://github.com/chunyim/expense-tracker",
+  // },
+  // {
+  //   imgsrc: foodbank,
+  //   title: "WIMTACH 2-day Front-End Hackathon",
+  //   text: "A web and mobile application designed to facilitate food delivery between food banks and the community, while also offering a convenient search feature for finding suitable food bank providers. Key features include Responsive Design, Reusable UI/UX components, HTML5-qrcode and Chat Bot",
+  //   view: "https://github.com/hinilyu/foodbank",
+  //   github: "https://github.com/hinilyu/foodbank",
+  // },
   {
     imgsrc: catGallery,
     title: "Cat Gallery -- Front-End JS Project",
@@ -49,13 +49,13 @@ const ProjectCardData = [
     view: "https://cat-gallery-chunhin.netlify.app",
     github: "https://github.com/chunyim/catgallery",
   },
-  {
-    imgsrc: wordGuessingGame,
-    title: "Word Guessing Game -- Front-End JS Project",
-    text: "It is a word guessing game where users can make as many attempts as they want until they win!",
-    view: "https://comp125-guessing-game.netlify.app/",
-    github: "https://github.com/chunyim/guessing-game",
-  },
+  // {
+  //   imgsrc: wordGuessingGame,
+  //   title: "Word Guessing Game -- Front-End JS Project",
+  //   text: "It is a word guessing game where users can make as many attempts as they want until they win!",
+  //   view: "https://comp125-guessing-game.netlify.app/",
+  //   github: "https://github.com/chunyim/guessing-game",
+  // },
 ];
 
 export default ProjectCardData;

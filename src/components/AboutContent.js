@@ -7,7 +7,7 @@ import reactLogo from "../assets/react_logo.png";
 import dbLogo from "../assets/dw.png"
 
 const AboutContent = () => {
-  const resumeUrl = "/HenryYim_Resume.docx";
+  const resumeUrl = "/HenryYim_Resume.pdf";
 
   const downloadResume = () => {
     const link = document.createElement("a");
